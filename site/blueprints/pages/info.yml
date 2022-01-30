@@ -1,0 +1,34 @@
+title: Information
+columns: 
+  - width: 2/3 
+    fields:
+      infotext:
+        label: Bio
+        type: textarea
+        size: small
+        placeholder: Alan Weedon is a photographer and writer. His work has been published in VICE, i-D, and The Quietus, among others. Currently he's a producer at ABC Radio National’s Blueprint and Lost and Found. 
+      list:
+        label: Selected Publications/Clients
+        type: list
+      email:
+        width: 1/2
+        label: email
+        type: email
+      instagram:
+        width: 1/2
+        label: Instagram link
+        type: url
+        placeholder: https://www.instagram.com/alan_weedon/
+      staticSiteGenerator:
+        label: Generate a static version of the site
+  - width: 1/3 
+    sections:
+      infopic:
+        label: Image
+        type: files
+        layout: cards
+        image:
+          ratio: 1/1
+        max: 1
+
+

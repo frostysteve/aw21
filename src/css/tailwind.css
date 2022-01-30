@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+
+/* ---- custom css and @apply components go here ---- */
+
+a {
+  @apply hover:opacity-70; 
+}
+
+@layer base {
+    @font-face {
+      font-family: Epicene;
+      font-weight: normal;
+      font-style: normal;
+      src: url(/assets/webfonts/epicene-text-light.woff2) format("woff2");
+    }
+    @font-face {
+      font-family: Folio;
+      font-weight: normal;
+      font-style: normal;
+      src: url(/assets/webfonts/folio-std-medium.woff) format("woff");
+    }
+
+}
+@tailwind utilities;

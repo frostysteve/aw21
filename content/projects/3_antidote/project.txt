@@ -1,0 +1,36 @@
+Title: Antidote
+
+----
+
+Category: Photography
+
+----
+
+Client: Sydney Opera House
+
+----
+
+Projectyear: 2019
+
+----
+
+Link: 
+
+----
+
+Text:
+
+Duis ornare leo leo, ac molestie ligula ultrices id. Aliquam eget tellus pharetra, vehicula arcu a, euismod tellus. Nulla sodales vitae ligula id tristique. Donec porta orci mattis porta scelerisque. Maecenas bibendum metus ut cursus eleifend. Morbi consectetur nibh ex. 
+
+Morbi ac sapien vel urna pulvinar molestie. Donec aliquam augue at molestie semper.
+
+----
+
+Blocks: [{"content":{"text":"<p>Ac molestie ligula, <em>Antidote<\/em>, 2019 aliquam eget tellus pharetra, vehicula arcu a, euismod tellus. Donec porta orci mattis porta scelerisque. Maecenas bibendum metus ut cursus eleifend. Morbi consectetur nibh ex. Nulla sodales vitae ligula id tristique. Donec porta orci mattis porta scelerisque. Maecenas bibendum metus ut cursus eleifend. Morbi consectetur nibh ex.<\/p><p><\/p>"},"id":"a79e2ee3-0347-484b-9007-6bbf063adfaa","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["09012019_antidote_cralanweedon-6828.jpg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"df7fbd36-798e-428a-8799-e42451332eb2","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["09012019_antidote_cralanweedon-6817.jpg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"b448bef6-dc79-4bb6-8a87-d26f6c5f40b3","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["09012019_antidote_cralanweedon-000015.jpg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"a9d4d8e3-95b7-4272-8f54-44cf869fce0e","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["09012019_antidote_cralanweedon-000031.jpg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"f01d0dbc-b41b-4b12-9181-32a3529fd825","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["09012019_antidote_cralanweedon-6781.jpg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"c19ae015-87dd-48be-b386-8c291041fca5","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["09012019_antidote_cralanweedon-000036.jpg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"5e8f7bcb-5bd1-4088-9204-71a952bac170","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["09012019_antidote_cralanweedon-6965.jpg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"1356bf45-0393-4f59-96fd-bf0e6e015763","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["09012019_antidote_cralanweedon-6742.jpg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"8bfadcef-f770-4e82-b454-1125a1d60bf8","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["09012019_antidote_cralanweedon-6904.jpg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"55c5739f-1b56-4c1c-9dd3-487b1a3fa7e0","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["09012019_antidote_cralanweedon-7088.jpg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"6cfe6327-fa71-4d69-9f29-8091ea20d546","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["09012019_antidote_cralanweedon-7047.jpg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"baac88cf-833d-4f8a-b069-4b3eec5b4f5f","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["09012019_antidote_cralanweedon-7063.jpg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"40885851-68ac-4264-81d4-d93689da5414","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["09012019_antidote_cralanweedon-7109.jpg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"428bd79f-91d6-4269-9b80-ad29eaee676c","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["09012019_antidote_cralanweedon-7140.jpg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"b29ef2e7-2ea5-4a1c-a004-1ed29c023a01","isHidden":false,"type":"image"}]
+
+----
+
+Thumb:
+
+- >
+  09012019_antidote_cralanweedon-000006.jpg

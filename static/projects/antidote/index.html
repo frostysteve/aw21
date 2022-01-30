@@ -1,0 +1,314 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Alan Weedon</title>
+		<meta name="description" content="xxx">
+		<meta name="keywords" content="xxxx">
+		<meta name="author" content="Alan Weedpon">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<!-- <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+		<link rel="icon" type="image/png" href="/assets/favicon.png"> -->
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link href="/assets/css/styles.css" rel="stylesheet">		<script src="//unpkg.com/alpinejs" defer></script>
+		<!-- <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script> -->
+	</head>
+	<body class="px-6 pt-3 text-xl sm:text-2xl antialiased cursor-auto">
+
+<div class="grid grid-cols-12 gap-4 sticky top-4 font-epicene">
+	<div class="col-span-6"><a href="/">Alan Weedon</a></div>
+	<div class="col-span-6 float-right">
+		<button id="open-about" class="fixed right-4 top-4">
+			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+			<path d="M19 13C19.5523 13 20 12.5523 20 12C20 11.4477 19.5523 11 19 11C18.4477 11 18 11.4477 18 12C18 12.5523 18.4477 13 19 13Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+			<path d="M5 13C5.55228 13 6 12.5523 6 12C6 11.4477 5.55228 11 5 11C4.44772 11 4 11.4477 4 12C4 12.5523 4.44772 13 5 13Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+			</svg>
+		</button>
+	</div>
+</div>
+
+
+
+<section id="about" class="hidden flex flex-row-reverse font-folio z-50 transition-transform">
+    <div class="fixed pt-4 pl-8 pr-12 sm:pr-24 right-0 top-0 w-full sm:w-1/2 h-full bg-amber-400 shadow-xl overflow-y-auto">
+		<div class="fixed right-4">
+			<button id="close-about">
+				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M18 6L6 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+				<path d="M6 6L18 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+			</button>
+		</div>
+
+		<div class="pb-8">
+			<h1>
+			<p>Alan Weedon is a photographer and writer. His work has been published in VICE, i-D, and The Quietus, among others. </p>
+<p>Currently, he's a producer at <a href="https://www.abc.net.au/radionational/programs/blueprintforliving/">ABC Radio National&rsquo;s Blueprint</a> and <a href="https://www.abc.net.au/radionational/programs/lost-and-found/">Lost and Found</a>.</p>			</h1>
+		</div>
+
+				<div class="w-2/3 sm:w-1/2 h-auto my-8 mix-blend-multiply">
+			<picture>
+				<source srcset="/media/pages/info/9946709510-1639287982/aw-march2019.avif" type="image/avif">
+				<source srcset="/media/pages/info/9946709510-1639287982/aw-march2019.webp" type="image/webp">
+				<img src="/media/pages/info/9946709510-1639287982/aw-march2019.jpg" alt="Portrait of Alan Weedon">
+			</picture>
+		</div>
+		
+
+		<div class="pt-4 pb-8">
+			<h3 class="text-base font-epicene uppercase pb-2">
+				Get in touch
+			</h3>
+			<a href="mailto:hello@alanweedon.co">
+			Email, 
+			</a>
+			<a href="mailto:https://www.instagram.com/alan_weedon/" target="_blank">
+			Instagram
+			</a>
+		</div>
+		<div class="pb-8">
+			<h3 class="text-base font-epicene uppercase pb-2">
+			Selected publications / clients
+			</h3>
+			<ul><li>AWOL</li><li>Broadsheet</li><li>Future Classic</li><li>Gertrude Contemporary</li><li>Good Manners Music</li><li>i-D</li><li>Emerging Writers' Festival</li><li>The Good Copy</li><li>The Lifted Brow</li><li>Paradise Music</li><li>Pieater Records</li><li>Play On Music</li><li>Science Gallery Melbourne</li><li>Sydney Opera House</li><li>VICE</li><li>The Wheeler Centre</li><li>WGSN<br></li></ul>		</div>
+		<div class="pt-4 mb-40 sm:mb-24">
+			<h3 class="text-base font-epicene uppercase pb-2">
+				Site
+			</h3>
+			<a href="https://newassoc.world" target="_blank">
+			New Association 
+			</a>
+		</div>
+    </div>
+</section>
+
+<script>
+    let modal = document.getElementById("about");
+	let btn = document.getElementById("open-about");
+	let button = document.getElementById("close-about");
+
+    // We want the modal to open when the Open button is clicked
+    btn.onclick = function() {
+    modal.style.display = "block";
+    }
+    // We want the modal to close when the OK button is clicked
+    button.onclick = function() {
+    modal.style.display = "none";
+    }
+
+	window.onclick = function(event) {
+    if (event.target == modal) {
+     modal.style.display = "none";
+    }
+    }
+
+
+</script>
+<div class="project">
+  <section class="grid grid-cols-12 gap-4 project-content">
+
+    <div class="col-span-10 sm:col-span-5 mt-24 mb-12 font-folio text-4xl">
+          <p>Antidote</p>
+    </div>
+
+
+  <main class="col-span-12 sm:col-span-8 font-epicene mb-40 prose prose-base sm:prose-lg max-w-none">
+        <div id="a79e2ee3-0347-484b-9007-6bbf063adfaa" class="mb-24">
+      
+<div class="">
+	<article class="mt-4 mb-8">
+			<p>Ac molestie ligula, <em>Antidote</em>, 2019 aliquam eget tellus pharetra, vehicula arcu a, euismod tellus. Donec porta orci mattis porta scelerisque. Maecenas bibendum metus ut cursus eleifend. Morbi consectetur nibh ex. Nulla sodales vitae ligula id tristique. Donec porta orci mattis porta scelerisque. Maecenas bibendum metus ut cursus eleifend. Morbi consectetur nibh ex.</p><p></p>	</article>
+</div>
+
+    </div>
+        <div id="df7fbd36-798e-428a-8799-e42451332eb2" class="mb-24">
+      <php # /site/snippets/blocks/imageblock.php ?>
+
+
+	<div class="">
+							<figure data-ratio="auto">
+				<img src="/media/pages/projects/antidote/419a2a0ea5-1643516027/09012019_antidote_cralanweedon-6828.jpg" alt="">
+		
+				</figure>
+			</div>
+
+
+    </div>
+        <div id="b448bef6-dc79-4bb6-8a87-d26f6c5f40b3" class="mb-24">
+      <php # /site/snippets/blocks/imageblock.php ?>
+
+
+	<div class="">
+							<figure data-ratio="auto">
+				<img src="/media/pages/projects/antidote/255f2600ea-1643515959/09012019_antidote_cralanweedon-6817.jpg" alt="">
+		
+				</figure>
+			</div>
+
+
+    </div>
+        <div id="a9d4d8e3-95b7-4272-8f54-44cf869fce0e" class="mb-24">
+      <php # /site/snippets/blocks/imageblock.php ?>
+
+
+	<div class="">
+							<figure data-ratio="auto">
+				<img src="/media/pages/projects/antidote/4f35e0fa8f-1643515908/09012019_antidote_cralanweedon-000015.jpg" alt="">
+		
+				</figure>
+			</div>
+
+
+    </div>
+        <div id="f01d0dbc-b41b-4b12-9181-32a3529fd825" class="mb-24">
+      <php # /site/snippets/blocks/imageblock.php ?>
+
+
+	<div class="">
+							<figure data-ratio="auto">
+				<img src="/media/pages/projects/antidote/72f7d49195-1643515929/09012019_antidote_cralanweedon-000031.jpg" alt="">
+		
+				</figure>
+			</div>
+
+
+    </div>
+        <div id="c19ae015-87dd-48be-b386-8c291041fca5" class="mb-24">
+      <php # /site/snippets/blocks/imageblock.php ?>
+
+
+	<div class="">
+							<figure data-ratio="auto">
+				<img src="/media/pages/projects/antidote/ea3336d059-1643515990/09012019_antidote_cralanweedon-6781.jpg" alt="">
+		
+				</figure>
+			</div>
+
+
+    </div>
+        <div id="5e8f7bcb-5bd1-4088-9204-71a952bac170" class="mb-24">
+      <php # /site/snippets/blocks/imageblock.php ?>
+
+
+	<div class="">
+							<figure data-ratio="auto">
+				<img src="/media/pages/projects/antidote/ad00f22757-1643515946/09012019_antidote_cralanweedon-000036.jpg" alt="">
+		
+				</figure>
+			</div>
+
+
+    </div>
+        <div id="1356bf45-0393-4f59-96fd-bf0e6e015763" class="mb-24">
+      <php # /site/snippets/blocks/imageblock.php ?>
+
+
+	<div class="">
+							<figure data-ratio="auto">
+				<img src="/media/pages/projects/antidote/e5c2848aa9-1643516064/09012019_antidote_cralanweedon-6965.jpg" alt="">
+		
+				</figure>
+			</div>
+
+
+    </div>
+        <div id="8bfadcef-f770-4e82-b454-1125a1d60bf8" class="mb-24">
+      <php # /site/snippets/blocks/imageblock.php ?>
+
+
+	<div class="">
+							<figure data-ratio="auto">
+				<img src="/media/pages/projects/antidote/5132b29ac1-1643515977/09012019_antidote_cralanweedon-6742.jpg" alt="">
+		
+				</figure>
+			</div>
+
+
+    </div>
+        <div id="55c5739f-1b56-4c1c-9dd3-487b1a3fa7e0" class="mb-24">
+      <php # /site/snippets/blocks/imageblock.php ?>
+
+
+	<div class="">
+							<figure data-ratio="auto">
+				<img src="/media/pages/projects/antidote/8656e09d44-1643516042/09012019_antidote_cralanweedon-6904.jpg" alt="">
+		
+				</figure>
+			</div>
+
+
+    </div>
+        <div id="6cfe6327-fa71-4d69-9f29-8091ea20d546" class="mb-24">
+      <php # /site/snippets/blocks/imageblock.php ?>
+
+
+	<div class="">
+							<figure data-ratio="auto">
+				<img src="/media/pages/projects/antidote/9d7b1442dd-1643516078/09012019_antidote_cralanweedon-7088.jpg" alt="">
+		
+				</figure>
+			</div>
+
+
+    </div>
+        <div id="baac88cf-833d-4f8a-b069-4b3eec5b4f5f" class="mb-24">
+      <php # /site/snippets/blocks/imageblock.php ?>
+
+
+	<div class="">
+							<figure data-ratio="auto">
+				<img src="/media/pages/projects/antidote/7c06a4dcbd-1643516087/09012019_antidote_cralanweedon-7047.jpg" alt="">
+		
+				</figure>
+			</div>
+
+
+    </div>
+        <div id="40885851-68ac-4264-81d4-d93689da5414" class="mb-24">
+      <php # /site/snippets/blocks/imageblock.php ?>
+
+
+	<div class="">
+							<figure data-ratio="auto">
+				<img src="/media/pages/projects/antidote/24ebfc3a82-1643516095/09012019_antidote_cralanweedon-7063.jpg" alt="">
+		
+				</figure>
+			</div>
+
+
+    </div>
+        <div id="428bd79f-91d6-4269-9b80-ad29eaee676c" class="mb-24">
+      <php # /site/snippets/blocks/imageblock.php ?>
+
+
+	<div class="">
+							<figure data-ratio="auto">
+				<img src="/media/pages/projects/antidote/605d4e175f-1643516107/09012019_antidote_cralanweedon-7109.jpg" alt="">
+		
+				</figure>
+			</div>
+
+
+    </div>
+        <div id="b29ef2e7-2ea5-4a1c-a004-1ed29c023a01" class="mb-24">
+      <php # /site/snippets/blocks/imageblock.php ?>
+
+
+	<div class="">
+							<figure data-ratio="auto">
+				<img src="/media/pages/projects/antidote/a096727ef1-1643516117/09012019_antidote_cralanweedon-7140.jpg" alt="">
+		
+				</figure>
+			</div>
+
+
+    </div>
+      </main>
+
+  </section>
+</div>
+
+</body>
+</html>

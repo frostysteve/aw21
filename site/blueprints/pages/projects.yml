@@ -1,0 +1,26 @@
+title: Projects
+preset: page
+
+sections:
+
+  drafts:
+    headline: Drafts
+    type: pages
+    status: draft
+    templates: project
+    info: "{{ page.client }} — {{ page.category }}"
+  
+
+  unlisted:
+    headline: Unlisted
+    type: pages
+    status: unlisted
+    templates: project
+    info: "{{ page.client }} — {{ page.category }}"
+
+  published:
+    headline: Published Projects
+    type: pages
+    status: listed
+    templates: project
+    info: "{{ page.client }} — {{ page.category }}"

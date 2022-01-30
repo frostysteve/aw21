@@ -1,0 +1,48 @@
+title: Project
+columns: 
+  - width: 2/3 
+    fields:
+      category: 
+        type: tags
+        min: 1
+        width: 1/2
+      client: 
+        type: text
+        width: 1/2 
+        placeholder: ABC Radio National
+      projectyear: 
+        label: Project year
+        type: text
+        width: 1/2
+        max: 9
+        required: true
+        placeholder: 2021
+      link: 
+        label: Link (external)
+        type: url
+        width: 1/2 
+        placeholder: https://www.abc.net.au/radionational/programs...
+        help: For projects without gallery
+      text:
+        label: Project description
+        type: textarea
+        required: true
+      blocks:
+        type: blocks
+        fieldsets:
+          - heading
+          - text
+          - image
+  - width: 1/3 
+    fields:
+      thumb:
+        label: Project Thumbnail
+        type: files
+        layout: cards
+        image:
+          ratio: 1/1
+        max: 1
+  
+
+
+
