@@ -42,7 +42,7 @@ $filters = $unfiltered->pluck('category', ',', true);
       <?php else: ?>
 				<a class="col-span-6 sm:col-span-3" href="<?= $project->url() ?>">
       <?php endif ?>
-        <img class="rounded-xl w-full object-cover object-center" src="<?= $hero->crop(600,600)->url() ?>" srcset="<?= $hero->crop(600,600)->srcset() ?>" alt="<?= $project->title() ?> image" />
+        <img class="rounded-xl w-full h-full object-cover object-center" src="<?= $hero->crop(600,600)->url() ?>" srcset="<?= $hero->crop(600,600)->srcset() ?>" alt="<?= $project->title() ?> image" />
         </a>
      <?php endif ?>
    <?php endforeach ?>
