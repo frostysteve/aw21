@@ -14,7 +14,7 @@
 <?php $info = $site->find('info') ?>
 
 
-<section id="about" class="hidden flex flex-row-reverse font-folio z-50 transition-transform">
+<section id="about" class="no-scrollbar hidden flex flex-row-reverse font-folio z-50 transition-transform">
     <div class="fixed pt-4 pl-8 pr-12 sm:pr-24 right-0 top-0 w-full sm:w-1/2 h-full bg-amber-400 shadow-xl overflow-y-auto">
 		<div class="fixed right-4">
 			<button id="close-about">
