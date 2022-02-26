@@ -1,7 +1,19 @@
-<php # /site/snippets/blocks/imageblock.php ?>
+<div class="grid grid-cols-12 gap-4">
+<div class=" 
+			<?php if ($block->imagewidth() == 'large'): ?>col-span-12 p-4 
+			<?php if ($block->imageposition() == 'left'): ?><?php endif ?>
+			<?php if ($block->imageposition() == 'center'): ?><?php endif ?>
+			<?php if ($block->imageposition() == 'right'): ?><?php endif ?><?php endif ?>
 
+			<?php if ($block->imagewidth() == 'medium'): ?>col-span-12 p-4 sm:p-0 sm:col-span-6
+			<?php if ($block->imageposition() == 'left'): ?> sm:pl-4 <?php endif ?>
+			<?php if ($block->imageposition() == 'center'): ?> sm:col-start-4 <?php endif ?>
+			<?php if ($block->imageposition() == 'right'): ?> sm:pr-4 sm:col-start-6  <?php endif ?><?php endif ?>
 
-	<div class="">
+			<?php if ($block->imagewidth() == 'small'): ?>col-span-12 p-4 sm:p-0 sm:col-span-5 md:col-span-4 
+			<?php if ($block->imageposition() == 'left'): ?> sm:pl-4 <?php endif ?>
+			<?php if ($block->imageposition() == 'center'): ?>sm:col-start-6 md:col-start-5<?php endif ?>
+			<?php if ($block->imageposition() == 'right'): ?>sm:pr-4 sm:col-start-7 lg:col-start-9 xl:col-start-9 <?php endif ?><?php endif ?>">
 			<?php
 
 		/** @var \Kirby\Cms\Block $block */
@@ -24,10 +36,10 @@
 		<figure<?= attr(['data-ratio' => $ratio, 'data-crop' => $crop], ' ') ?>>
 		<?php if ($link->isNotEmpty()): ?>
 		<a href="<?= esc($link->toUrl()) ?>">
-			<img src="<?= $src ?>" alt="<?= $alt->esc() ?>">
+			<img class="w-full h-auto" src="<?= $src ?>" alt="<?= $alt->esc() ?>">
 		</a>
 		<?php else: ?>
-		<img src="<?= $src ?>" alt="<?= $alt->esc() ?>">
+		<img class="w-full h-auto" src="<?= $src ?>" alt="<?= $alt->esc() ?>">
 		<?php endif ?>
 
 		<?php if ($caption->isNotEmpty()): ?>
@@ -37,6 +49,6 @@
 		<?php endif ?>
 		</figure>
 		<?php endif ?>
+	
 	</div>
-
-
+</div>
