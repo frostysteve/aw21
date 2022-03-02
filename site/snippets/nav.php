@@ -18,7 +18,7 @@
     <div class="fixed pt-4 pl-8 pr-12 sm:pr-24 right-0 top-0 w-full sm:w-1/2 h-full bg-amber-400 shadow-xl overflow-y-auto">
 		<div class="fixed right-4">
 			<button id="close-about">
-				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<svg width="24" hessight="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<path d="M18 6L6 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 				<path d="M6 6L18 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 				</svg>
