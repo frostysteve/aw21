@@ -1,4 +1,11 @@
+# Kirby itself
+/kirby
 
+# Composer dependencies
+/vendor
+
+# Content 
+/content
 
 # System files
 # ------------
