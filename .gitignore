@@ -4,6 +4,7 @@
 # Composer dependencies
 /vendor
 
+/content
 
 # System files
 # ------------
