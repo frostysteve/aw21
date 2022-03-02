@@ -2,9 +2,6 @@
 
 return [
   'debug' => true,
-  'panel' =>[
-    'install' => true
-  ],
   'd4l' => [
     'static_site_generator' => [
       'endpoint' => 'kirby-ssr', # set to any string like 'generate-static-site' to use the built-in endpoint (necessary when using the blueprint field)
