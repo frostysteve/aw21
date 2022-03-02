@@ -1,2 +1,14 @@
-preset: pages
-unlisted: true
+title: Site
+sections:
+  pages:
+    headline: Main Pages
+    create: false
+    templates:
+      - projects
+      - information
+    status: all
+    layout: cards
+    size: large
+    image:
+      back: black
+      cover: false
