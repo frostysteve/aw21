@@ -5,7 +5,7 @@ sections:
     create: false
     templates:
       - projects
-      - information
+      - info
     status: all
     layout: cards
     size: large
