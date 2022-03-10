@@ -3,7 +3,7 @@
 return [
   'debug' => true,
   'panel' =>[
-    'install' => true
+    'install' => false
   ],
   'cache' => [
     'pages' => [
