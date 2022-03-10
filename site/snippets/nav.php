@@ -1,4 +1,4 @@
-<div class="grid grid-cols-12 gap-4 sticky top-4 font-epicene">
+<div class="grid grid-cols-12 gap-4 sticky top-4 font-folio">
 	<div class="col-span-6"><a href="<?= $site->url() ?>">Alan Weedon</a></div>
 	<div class="col-span-6 float-right">
 		<button id="open-about" class="fixed right-4 top-4">
@@ -15,7 +15,7 @@
 
 
 <section id="about" class="no-scrollbar hidden flex flex-row-reverse font-folio z-50 transition-transform">
-    <div class="fixed pt-4 pl-8 pr-12 sm:pr-24 right-0 top-0 w-full sm:w-1/2 h-full bg-amber-400 shadow-xl overflow-y-auto">
+    <div <?php if ($info->infobg()->isNotEmpty()): ?> style="background-color: <?php echo $info->infobg() ?>;"   <?php else: ?>  style="background-color: rgb(251 191 36);" <?php endif ?> class="fixed pt-4 pl-8 pr-12 sm:pr-24 right-0 top-0 w-full sm:w-1/2 h-full shadow-xl overflow-y-auto">
 		<div class="fixed right-4">
 			<button id="close-about">
 				<svg width="24" hessight="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

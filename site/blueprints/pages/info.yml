@@ -19,6 +19,16 @@ columns:
         label: Instagram link
         type: url
         placeholder: https://www.instagram.com/alan_weedon/
+      infobg:
+        width: 1/2
+        label: Info panel custom background colour
+        type: text
+        placeholder: "#FBBF24"
+      globalbg:
+        width: 1/2
+        label: Website custom background colour
+        type: text
+        placeholder: "#FEFEFE"
   - width: 1/3 
     sections:
       infopic:
@@ -28,5 +38,7 @@ columns:
         image:
           ratio: 1/1
         max: 1
+
+
 
 

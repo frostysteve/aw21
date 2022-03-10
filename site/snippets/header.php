@@ -15,5 +15,6 @@
 		<script src="//unpkg.com/alpinejs" defer></script>
 		<!-- <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script> -->
 	</head>
-	<body class="px-6 pt-3 text-xl sm:text-2xl antialiased cursor-auto">
+	<?php $info = $site->find('info') ?>
+	<body <?php if ($info->globalbg()->isNotEmpty()): ?> style="background-color: <?php echo $info->globalbg() ?>;"   <?php else: ?>  style="background-color: #fefefe;" <?php endif ?> class="px-6 pt-3 text-xl sm:text-2xl antialiased cursor-auto">
 
