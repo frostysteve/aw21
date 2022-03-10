@@ -1,0 +1,31 @@
+Title: Inheritance: Reconstituting the white man's gaze
+
+----
+
+Category: Photography, Exhibition
+
+----
+
+Client: Trocadero Art Space
+
+----
+
+Projectyear: 2019
+
+----
+
+Link: 
+
+----
+
+Text: Inheritance is a trip through Hayley Millar-Baker and Alan Weedon’s inherited photographic archives from their paternal relatives: white men of an inter-war Australia that has since been confined to the history books.
+
+----
+
+Blocks: [{"content":{"location":"kirby","image":["weedon_inheritance34.jpg"],"src":"","imagewidth":"small","imageposition":"center","alt":"","caption":"text","link":"","ratio":"","crop":"false"},"id":"b01fc550-6490-4625-9b7a-5d295185608f","isHidden":false,"type":"image"}]
+
+----
+
+Thumb:
+
+- weedon_inheritance34.jpg
